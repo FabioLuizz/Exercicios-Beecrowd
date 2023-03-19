@@ -1,7 +1,7 @@
 var input = require('fs').readFileSync('Exercicios_Javascript/stdin', 'utf8');
 var lines = input.split('\n');
 
-const p1 = lines.shift().split(' ')
+const p1 = lines.shift().split('')
 const p2 = lines.shift().split(' ')
 
 const x1 = (p1[0])
